@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IqraaNow 5.0</title>
+  <meta name="description" content="Plateforme éducative multi-écoles" />
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: #fafafa;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <iframe id="iqraanow-app" src="/iqraanow-platform_4.html" title="IqraaNow 5.0 Platform"></iframe>
+  <script>
+    const app = document.getElementById('iqraanow-app');
+    app.src = '/iqraanow-platform_4.html' + window.location.search;
+  </script>
+</body>
+</html>

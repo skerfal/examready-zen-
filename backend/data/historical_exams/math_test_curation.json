@@ -1,0 +1,66 @@
+{
+  "exam_id": "math_test_curation",
+  "region": "TestRegion",
+  "year": 2026,
+  "subject": "math",
+  "grade": "6AEP",
+  "source_file": "math_test_curation.pdf",
+  "total_pages": 1,
+  "questions": [
+    {
+      "question_id": "math_test_curation_Q01",
+      "question_text": "Pose et effectue la multiplication suivante : 23.5 * 12",
+      "detected_number": 1,
+      "topic_id": "decimal_multiplication",
+      "topic_confidence": "high",
+      "classification_reason": "Correspondance détectée avec le mot-clé/motif : '\\bmultiplication\\b'",
+      "answer_type": "numeric",
+      "difficulty": "medium",
+      "requires_visual_support": false,
+      "requires_image_upload": false,
+      "extraction_confidence": "high",
+      "extraction_warnings": [],
+      "status": "approved",
+      "needs_manual_verification": true,
+      "source_page": 1,
+      "source_text_snippet": "Pose et effectue la multiplication suivante : 23.5 * 12",
+      "linked_revision_note_topic_id": "decimal_multiplication",
+      "skill_tag": "decimal_multiplication",
+      "domain": "numbers_calculation",
+      "expected_answer": "282"
+    },
+    {
+      "question_id": "math_test_curation_Q02",
+      "question_text": "Construis un triangle ABC rectangle en A",
+      "detected_number": 2,
+      "topic_id": "triangle_construction",
+      "topic_confidence": "high",
+      "classification_reason": "Correspondance détectée avec le mot-clé/motif : '\\bconstruis.*angle\\b'",
+      "answer_type": "drawing_photo",
+      "difficulty": "medium",
+      "requires_visual_support": true,
+      "requires_image_upload": true,
+      "extraction_confidence": "high",
+      "extraction_warnings": [],
+      "status": "rejected",
+      "needs_manual_verification": true,
+      "source_page": 1,
+      "source_text_snippet": "Construis un triangle ABC rectangle en A",
+      "linked_revision_note_topic_id": "triangle_construction",
+      "skill_tag": "triangle_construction",
+      "domain": "geometry"
+    }
+  ],
+  "extraction_quality_summary": {
+    "total_text_length": 124,
+    "page_text_length": {
+      "1": 134
+    },
+    "question_blocks_detected": 2,
+    "average_question_length": 47.5,
+    "suspected_scanned_pdf": false,
+    "suspected_layout_issue": false,
+    "extraction_confidence": "high",
+    "extraction_warnings": []
+  }
+}

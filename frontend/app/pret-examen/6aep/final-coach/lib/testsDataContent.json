@@ -1,0 +1,1402 @@
+[
+  {
+    "day": 1,
+    "date": "18 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Éducation Islamique"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Opérations et ordre sur les nombres décimaux.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D1-Q1",
+            "type": "easy",
+            "text": "Arrange these decimal numbers in ascending order ($<$): `45,8` | `45,18` | `45,81` | `45,08`",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "`45,08 < 45,18 < 45,8 < 45,81`",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 4: Les nombres décimaux",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Order: `12.5 | 12.05 | 12.55`.",
+              "Calculate: `(15,8 - 4,2) + 6,7 =`.",
+              "Multiply: `152 × 3,4 =`.",
+              "+ 3,8 =`"
+            ],
+            "retestQuestion": "Calculate `(80 - 12,5) + 3,8 =`"
+          },
+          {
+            "id": "D1-Q2",
+            "type": "medium",
+            "text": "Calculate the following combined operation: `(25,3 + 9,8) - 12,45 =`",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "`22,65`.",
+            "explanation": "- Step 1 (Brackets): `25,3 + 9,8 = 35,1`\n- Step 2 (Subtraction): `35,10 - 12,45 = 22,65`",
+            "mistakeRouting": "Leçon 4: Les nombres décimaux",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Order: `12.5 | 12.05 | 12.55`.",
+              "Calculate: `(15,8 - 4,2) + 6,7 =`.",
+              "Multiply: `152 × 3,4 =`.",
+              "+ 3,8 =`"
+            ],
+            "retestQuestion": "Calculate `(80 - 12,5) + 3,8 =`"
+          },
+          {
+            "id": "D1-Q3",
+            "type": "exam-style",
+            "text": "Solve the vertical multiplication: `4078 × 7,9 =`",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "`32216,2`.",
+            "explanation": "- Multiply `4078 × 79 = 322162`. Place 1 decimal digit from the right $\\rightarrow$ `[ 32216,2 ]`.",
+            "mistakeRouting": "Leçon 4: Les nombres décimaux",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Order: `12.5 | 12.05 | 12.55`.",
+              "Calculate: `(15,8 - 4,2) + 6,7 =`.",
+              "Multiply: `152 × 3,4 =`.",
+              "+ 3,8 =`"
+            ],
+            "retestQuestion": "Calculate `(80 - 12,5) + 3,8 =`"
+          }
+        ]
+      },
+      {
+        "subject": "Français",
+        "title": "Bloc Français",
+        "objective": "Lecture critique et repérage d'informations textuelles.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D1-Q4",
+            "type": "easy",
+            "text": "How many paragraphs are there in this text passage?",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "There is 1 paragraph in this short passage.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Unit 5: Lecture et Compréhension",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Underline the source of the text: \"Source: Le Monde, 2024\".",
+              "Find the word \"consomme\" in the text above.",
+              "Write a sentence stating what the text is about."
+            ],
+            "retestQuestion": "What is the subject of the first sentence?"
+          },
+          {
+            "id": "D1-Q5",
+            "type": "medium",
+            "text": "Scan the text and write down the word that means \"précieuse\" or \"indispensable\" in the first sentence.",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "\"essentielle\"",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Unit 5: Lecture et Compréhension",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Underline the source of the text: \"Source: Le Monde, 2024\".",
+              "Find the word \"consomme\" in the text above.",
+              "Write a sentence stating what the text is about."
+            ],
+            "retestQuestion": "What is the subject of the first sentence?"
+          },
+          {
+            "id": "D1-Q6",
+            "type": "exam-style",
+            "text": "Extract the source reference of the text (journal name and date).",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "Journal 'Éco-Planète', juin 2023.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Unit 5: Lecture et Compréhension",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Underline the source of the text: \"Source: Le Monde, 2024\".",
+              "Find the word \"consomme\" in the text above.",
+              "Write a sentence stating what the text is about."
+            ],
+            "retestQuestion": "What is the subject of the first sentence?"
+          }
+        ]
+      },
+      {
+        "subject": "Éducation Islamique",
+        "title": "Bloc Éducation Islamique",
+        "objective": "Récitation et vocabulaire de Sourate al-Qalam (versets 1-7).",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D1-Q7",
+            "type": "easy",
+            "text": "What is the meaning of \"غَيْرَ مَمْنُونٍ\" in Surat al-Qalam?",
+            "arabicText": "What is the meaning of \"غَيْرَ مَمْنُونٍ\" in Surat al-Qalam?",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "غَيْرَ مَمْنُونٍ = غير مقطوع (أو أجر دائم).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "تزكية (قرآن كريم): سورة القلم",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Recite verses 1-3 aloud.",
+              "Copy verses 1-4 on slate.",
+              "Define: \"يَسْطُرُونَ\"."
+            ],
+            "retestQuestion": "Write verse 3 of Surat al-Qalam."
+          },
+          {
+            "id": "D1-Q8",
+            "type": "medium",
+            "text": "Write verse 2 of Surat al-Qalam: \"مَا أَنْتَ...\" from memory.",
+            "arabicText": "Write verse 2 of Surat al-Qalam: \"مَا أَنْتَ...\" from memory.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "\"مَا أَنْتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍ\"",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "تزكية (قرآن كريم): سورة القلم",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Recite verses 1-3 aloud.",
+              "Copy verses 1-4 on slate.",
+              "Define: \"يَسْطُرُونَ\"."
+            ],
+            "retestQuestion": "Write verse 3 of Surat al-Qalam."
+          },
+          {
+            "id": "D1-Q9",
+            "type": "exam-style",
+            "text": "Write verse 4 of Surat al-Qalam: \"وَإِنَّكَ...\" from memory.",
+            "arabicText": "Write verse 4 of Surat al-Qalam: \"وَإِنَّكَ...\" from memory.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "\"وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ\"",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "تزكية (قرآن كريم): سورة القلم",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Recite verses 1-3 aloud.",
+              "Copy verses 1-4 on slate.",
+              "Define: \"يَسْطُرُونَ\"."
+            ],
+            "retestQuestion": "Write verse 3 of Surat al-Qalam."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "date": "19 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Langue Arabe"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Somme, produit et simplification des fractions.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D2-Q1",
+            "type": "easy",
+            "text": "Add the fractions: $\\frac{2}{5} + \\frac{1}{5} =$",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "$\\frac{3}{5}$",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 11: Les fractions",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "$\\frac{3}{8} - \\frac{1}{4} =$.",
+              "$\\frac{2}{3} \\times \\frac{1}{4} =$.",
+              "$\\frac{5}{6} \\div \\frac{1}{3} =$."
+            ],
+            "retestQuestion": "Solve $\\left(\\frac{1}{4} + \\frac{1}{2}\\right) \\div \\frac{3}{4} =$"
+          },
+          {
+            "id": "D2-Q2",
+            "type": "medium",
+            "text": "Multiply and simplify: $\\frac{4}{3} \\times \\frac{5}{8} =$",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "$\\frac{20}{24} = \\frac{5}{6}$ (simplified by dividing by 4).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 11: Les fractions",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "$\\frac{3}{8} - \\frac{1}{4} =$.",
+              "$\\frac{2}{3} \\times \\frac{1}{4} =$.",
+              "$\\frac{5}{6} \\div \\frac{1}{3} =$."
+            ],
+            "retestQuestion": "Solve $\\left(\\frac{1}{4} + \\frac{1}{2}\\right) \\div \\frac{3}{4} =$"
+          },
+          {
+            "id": "D2-Q3",
+            "type": "exam-style",
+            "text": "Solve the combined fraction operation: $\\left(\\frac{1}{2} + \\frac{2}{3}\\right) \\div \\frac{7}{6} =$",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "$1$.",
+            "explanation": "- Step 1 (Brackets): $\\frac{1}{2} + \\frac{2}{3} = \\frac{3}{6} + \\frac{4}{6} = \\frac{7}{6}$\n- Step 2 (Division): $\\frac{7}{6} \\div \\frac{7}{6} = \\frac{7}{6} \\times \\frac{6}{7} = 1$",
+            "mistakeRouting": "Leçon 11: Les fractions",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "$\\frac{3}{8} - \\frac{1}{4} =$.",
+              "$\\frac{2}{3} \\times \\frac{1}{4} =$.",
+              "$\\frac{5}{6} \\div \\frac{1}{3} =$."
+            ],
+            "retestQuestion": "Solve $\\left(\\frac{1}{4} + \\frac{1}{2}\\right) \\div \\frac{3}{4} =$"
+          }
+        ]
+      },
+      {
+        "subject": "Français",
+        "title": "Bloc Français",
+        "objective": "Identification des synonymes et formation avec les suffixes.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D2-Q4",
+            "type": "easy",
+            "text": "Write the opposite of \"possible\" by adding a prefix.",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "impossible (prefix: im-)",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Lexique (p. 56 / 116)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Prefix for \"honnête\" $\\rightarrow$ malhonnête.",
+              "Suffix for \"rapide\" $\\rightarrow$ rapidement.",
+              "Synonym of \"économiser\"."
+            ],
+            "retestQuestion": "Add prefix to \"lisible\" and suffix to \"triste\"."
+          },
+          {
+            "id": "D2-Q5",
+            "type": "medium",
+            "text": "Choose the correct synonym for \"bâtir\" from: *détruire* | *manger* | *construire* | *marcher*",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "construire",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Lexique (p. 56 / 116)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Prefix for \"honnête\" $\\rightarrow$ malhonnête.",
+              "Suffix for \"rapide\" $\\rightarrow$ rapidement.",
+              "Synonym of \"économiser\"."
+            ],
+            "retestQuestion": "Add prefix to \"lisible\" and suffix to \"triste\"."
+          },
+          {
+            "id": "D2-Q6",
+            "type": "exam-style",
+            "text": "Underline the suffix in \"lentement\" and write the adverb for \"heureux\".",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "Suffix: \"ment\" (lente**ment**). Adverb: heureusement.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Lexique (p. 56 / 116)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Prefix for \"honnête\" $\\rightarrow$ malhonnête.",
+              "Suffix for \"rapide\" $\\rightarrow$ rapidement.",
+              "Synonym of \"économiser\"."
+            ],
+            "retestQuestion": "Add prefix to \"lisible\" and suffix to \"triste\"."
+          }
+        ]
+      },
+      {
+        "subject": "Langue Arabe",
+        "title": "Bloc Langue Arabe",
+        "objective": "تصريف الأفعال الصحيحة والمعتلة في مختلف الأزمنة.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D2-Q7",
+            "type": "easy",
+            "text": "هل الفعل \"وَجَدَ\" فعل صحيح أم معتل؟ وما هو نوعه؟",
+            "arabicText": "هل الفعل \"وَجَدَ\" فعل صحيح أم معتل؟ وما هو نوعه؟",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "فعل معتل (نوعه: معتل مثال لأنه يبدأ بحرف علة: الواو).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الصرف والتحويل (الوحدة 1)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/arabic_curriculum.md)",
+              "Conjugate \"قعد\" in past with \"أنا\".",
+              "Conjugate \"باع\" in present with \"هو\".",
+              "Conjugate \"رمى\" in command with \"أنتَ\"."
+            ],
+            "retestQuestion": "Conjugate \"وقف\" in command with \"أنتَ\" (قِفْ)."
+          },
+          {
+            "id": "D2-Q8",
+            "type": "medium",
+            "text": "صرف الفعل \"قَالَ\" في المضارع مع الضمير \"أنتِ\".",
+            "arabicText": "صرف الفعل \"قَالَ\" في المضارع مع الضمير \"أنتِ\".",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "أنتِ تقولينَ.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الصرف والتحويل (الوحدة 1)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/arabic_curriculum.md)",
+              "Conjugate \"قعد\" in past with \"أنا\".",
+              "Conjugate \"باع\" in present with \"هو\".",
+              "Conjugate \"رمى\" in command with \"أنتَ\"."
+            ],
+            "retestQuestion": "Conjugate \"وقف\" in command with \"أنتَ\" (قِفْ)."
+          },
+          {
+            "id": "D2-Q9",
+            "type": "exam-style",
+            "text": "صرف الفعل \"سَعَى\" في الأمر (الأمر) مع الضمير \"أنتَ\".",
+            "arabicText": "صرف الفعل \"سَعَى\" في الأمر (الأمر) مع الضمير \"أنتَ\".",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "أنتَ اسْعَ (مع حذف حرف العلة في الآخر وضبطه بالفتحة).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الصرف والتحويل (الوحدة 1)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/arabic_curriculum.md)",
+              "Conjugate \"قعد\" in past with \"أنا\".",
+              "Conjugate \"باع\" in present with \"هو\".",
+              "Conjugate \"رمى\" in command with \"أنتَ\"."
+            ],
+            "retestQuestion": "Conjugate \"وقف\" in command with \"أنتَ\" (قِفْ)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "date": "20 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Éducation Islamique"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Division avec quotient décimal et conversion du diviseur.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D3-Q1",
+            "type": "easy",
+            "text": "Solve: `12,6 ÷ 3 =`",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "`4,2`",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 29: Division décimale",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "`8,4 ÷ 2 =`.",
+              "`12,8 ÷ 0,4 =`.",
+              "`15,3 ÷ 1,7 =`."
+            ],
+            "retestQuestion": "Solve `8,64 ÷ 2,4 =`"
+          },
+          {
+            "id": "D3-Q2",
+            "type": "medium",
+            "text": "Convert and solve (eliminate divisor decimal): `24,5 ÷ 0,5 =`",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "`49`. Multiply dividend and divisor by 10 to get `245 ÷ 5 = 49`.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 29: Division décimale",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "`8,4 ÷ 2 =`.",
+              "`12,8 ÷ 0,4 =`.",
+              "`15,3 ÷ 1,7 =`."
+            ],
+            "retestQuestion": "Solve `8,64 ÷ 2,4 =`"
+          },
+          {
+            "id": "D3-Q3",
+            "type": "exam-style",
+            "text": "Solve the long division: `201,603 ÷ 6,7 =`",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "`30,09`.",
+            "explanation": "- Convert divisor by multiplying by 10 $\\rightarrow$ `2016,03 ÷ 67`.\n- 201 divided by 67 is 3 (remainder 0).\n- Bring down 6 $\\rightarrow$ 6 divided by 67 is 0 (remainder 6).\n- Place comma in quotient.\n- Bring down 0 $\\rightarrow$ 60 divided by 67 is 0.\n- Bring down 3 $\\rightarrow$ 603 divided by 67 is 9. Result: `30,09`.",
+            "mistakeRouting": "Leçon 29: Division décimale",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "`8,4 ÷ 2 =`.",
+              "`12,8 ÷ 0,4 =`.",
+              "`15,3 ÷ 1,7 =`."
+            ],
+            "retestQuestion": "Solve `8,64 ÷ 2,4 =`"
+          }
+        ]
+      },
+      {
+        "subject": "Français",
+        "title": "Bloc Français",
+        "objective": "La pronominalisation (COD/COI), l'expression de la cause et la voix passive.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D3-Q4",
+            "type": "easy",
+            "text": "Rewrite the sentence replacing the COD noun with a pronoun: \"Younes respecte la nature.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "Younes *la* respecte.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Grammaire (p. 52 / 94 / 154)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Pronoun: \"Je lave les mains\" $\\rightarrow$ \"Je les lave\".",
+              "Cause: \"Il est absent. Il est malade.\"",
+              "Passive: \"Le vent nettoie le ciel.\""
+            ],
+            "retestQuestion": "Make passive: \"Le chat mange la souris.\""
+          },
+          {
+            "id": "D3-Q5",
+            "type": "medium",
+            "text": "Connect these sentences using \"parce que\" to express cause: \"Il boit de l'eau. Il a soif.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "Il boit de l'eau *parce qu'*il a soif. (Note the apostrophe).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Grammaire (p. 52 / 94 / 154)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Pronoun: \"Je lave les mains\" $\\rightarrow$ \"Je les lave\".",
+              "Cause: \"Il est absent. Il est malade.\"",
+              "Passive: \"Le vent nettoie le ciel.\""
+            ],
+            "retestQuestion": "Make passive: \"Le chat mange la souris.\""
+          },
+          {
+            "id": "D3-Q6",
+            "type": "exam-style",
+            "text": "Rewrite the sentence in the passive voice: \"Le garçon ferme les robinets.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "Les robinets *sont fermés* par le garçon. (Note plural \"s\" on fermés).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Grammaire (p. 52 / 94 / 154)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Pronoun: \"Je lave les mains\" $\\rightarrow$ \"Je les lave\".",
+              "Cause: \"Il est absent. Il est malade.\"",
+              "Passive: \"Le vent nettoie le ciel.\""
+            ],
+            "retestQuestion": "Make passive: \"Le chat mange la souris.\""
+          }
+        ]
+      },
+      {
+        "subject": "Éducation Islamique",
+        "title": "Bloc Éducation Islamique",
+        "objective": "أحكام الصيام: شروطه، فرائضه وأعذار الإفطار.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D3-Q7",
+            "type": "easy",
+            "text": "ما هو تعريف الصيام شرعاً؟",
+            "arabicText": "ما هو تعريف الصيام شرعاً؟",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "الصيام هو الإمساك عن شهوتي البطن والفرج من طلوع الفجر إلى غروب الشمس بنية التقرب إلى الله.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الاستجابة: الصيام",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Write fasting definition twice.",
+              "List 3 conditions of fasting.",
+              "List 3 excuses for breaking the fast."
+            ],
+            "retestQuestion": "Is old age (العجز الكلي) an excuse for breaking fast?"
+          },
+          {
+            "id": "D3-Q8",
+            "type": "medium",
+            "text": "اذكر شرطين من شروط الصيام.",
+            "arabicText": "اذكر شرطين من شروط الصيام.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "الإسلام، العقل، البلوغ، الإقامة، الصحة، الطهارة (أي اثنين).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الاستجابة: الصيام",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Write fasting definition twice.",
+              "List 3 conditions of fasting.",
+              "List 3 excuses for breaking the fast."
+            ],
+            "retestQuestion": "Is old age (العجز الكلي) an excuse for breaking fast?"
+          },
+          {
+            "id": "D3-Q9",
+            "type": "exam-style",
+            "text": "سافر أحمد مسافة 150 كيلومتر في نهار رمضان. هل يجوز له الإفطار؟ علل جوابك.",
+            "arabicText": "سافر أحمد مسافة 150 كيلومتر في نهار رمضان. هل يجوز له الإفطار؟ علل جوابك.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "نعم، يجوز له الإفطار لأن السفر رخصة شرعية تبيح الإفطار (شرط أن يقضي اليوم لاحقاً).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الاستجابة: الصيام",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Write fasting definition twice.",
+              "List 3 conditions of fasting.",
+              "List 3 excuses for breaking the fast."
+            ],
+            "retestQuestion": "Is old age (العجز الكلي) an excuse for breaking fast?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "date": "21 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Langue Arabe"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Opérations d'addition et soustraction sur les nombres sexagésimaux.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D4-Q1",
+            "type": "easy",
+            "text": "Solve: `2h 15min + 1h 20min =`",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "`3h 35min`",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 21: Les nombres sexagésimaux",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "`1h 40min + 3h 30min =`.",
+              "`4h 05min - 1h 20min =`.",
+              "`2h 50min 50s + 1h 10min 20s =`."
+            ],
+            "retestQuestion": "Solve `5h 15min - 2h 45min =`"
+          },
+          {
+            "id": "D4-Q2",
+            "type": "medium",
+            "text": "Calculate vertical time sum with carry rollover:\n`3h 45min 50s + 2h 20min 15s =`",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "`6h 6min 5s`.",
+            "explanation": "- Step 1: `3h 45min 50s + 2h 20min 15s = 5h 65min 65s`\n- Step 2: Convert `65s = 1min 5s` $\\rightarrow$ `5h 66min 5s`\n- Step 3: Convert `66min = 1h 6min` $\\rightarrow$ `[ 6h 6min 5s ]`",
+            "mistakeRouting": "Leçon 21: Les nombres sexagésimaux",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "`1h 40min + 3h 30min =`.",
+              "`4h 05min - 1h 20min =`.",
+              "`2h 50min 50s + 1h 10min 20s =`."
+            ],
+            "retestQuestion": "Solve `5h 15min - 2h 45min =`"
+          },
+          {
+            "id": "D4-Q3",
+            "type": "exam-style",
+            "text": "Solve the subtraction (requires borrowing):\n`4h 15min - 2h 30min =`",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "`1h 45min`.",
+            "explanation": "- Borrow `1h` from `4h` and add `60min` to `15min` $\\rightarrow$ `3h 75min - 2h 30min = [ 1h 45min ]`",
+            "mistakeRouting": "Leçon 21: Les nombres sexagésimaux",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "`1h 40min + 3h 30min =`.",
+              "`4h 05min - 1h 20min =`.",
+              "`2h 50min 50s + 1h 10min 20s =`."
+            ],
+            "retestQuestion": "Solve `5h 15min - 2h 45min =`"
+          }
+        ]
+      },
+      {
+        "subject": "Français",
+        "title": "Bloc Français",
+        "objective": "Conjugaison des verbes au présent et au futur simple.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D4-Q4",
+            "type": "easy",
+            "text": "Conjugate \"aller\" in the present: \"Nous ... (aller) à la piscine.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "allons",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Conjugaison (p. 24 / 66)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Present (tu) of \"être\" $\\rightarrow$ tu es.",
+              "Future (ils) of \"faire\" $\\rightarrow$ ils feront.",
+              "Present (il) of \"prendre\" $\\rightarrow$ il prend."
+            ],
+            "retestQuestion": "Conjugate \"aller\" (Future, tu) and \"faire\" (Future, ils)."
+          },
+          {
+            "id": "D4-Q5",
+            "type": "medium",
+            "text": "Conjugate \"avoir\" in the future simple: \"Vous ... (avoir) chaud en été.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "aurez",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Conjugaison (p. 24 / 66)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Present (tu) of \"être\" $\\rightarrow$ tu es.",
+              "Future (ils) of \"faire\" $\\rightarrow$ ils feront.",
+              "Present (il) of \"prendre\" $\\rightarrow$ il prend."
+            ],
+            "retestQuestion": "Conjugate \"aller\" (Future, tu) and \"faire\" (Future, ils)."
+          },
+          {
+            "id": "D4-Q6",
+            "type": "exam-style",
+            "text": "Conjugate \"faire\" in the present (ils) and future (nous).",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "Present (ils): ils *font*. Future (nous): nous *ferons*.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Conjugaison (p. 24 / 66)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Present (tu) of \"être\" $\\rightarrow$ tu es.",
+              "Future (ils) of \"faire\" $\\rightarrow$ ils feront.",
+              "Present (il) of \"prendre\" $\\rightarrow$ il prend."
+            ],
+            "retestQuestion": "Conjugate \"aller\" (Future, tu) and \"faire\" (Future, ils)."
+          }
+        ]
+      },
+      {
+        "subject": "Langue Arabe",
+        "title": "Bloc Langue Arabe",
+        "objective": "التراكيب: نصب وجزم الأفعال المضارعة والأفعال الخمسة.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D4-Q7",
+            "type": "easy",
+            "text": "حدد أداة النصب والفعل المضارع المنصوب في الجملة: \"لن نضيعَ الماءَ.\"",
+            "arabicText": "حدد أداة النصب والفعل المضارع المنصوب في الجملة: \"لن نضيعَ الماءَ.\"",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "أداة النصب: لن. الفعل المنصوب: نضيعَ.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "التراكيب (الوحدة 1-2)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/arabic_curriculum.md)",
+              "Rewrite with \"أن\": \"أنتم تقتصدون.\"",
+              "Rewrite with \"لم\": \"هما يسافران.\"",
+              "Parse \"يكتبوا\" in: \"كي يكتبوا.\""
+            ],
+            "retestQuestion": "Rewrite with \"لن\": \"المعلمون يتكاسلون.\" (لن يتكاسلوا)."
+          },
+          {
+            "id": "D4-Q8",
+            "type": "medium",
+            "text": "أدخل أداة جزم \"لم\" على الجملة التالية وغير ما يلزم: \"أنتم تسرفون في الماء.\"",
+            "arabicText": "أدخل أداة جزم \"لم\" على الجملة التالية وغير ما يلزم: \"أنتم تسرفون في الماء.\"",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "\"لم **تسرفوا** في الماء.\" (حذف النون لأنه من الأفعال الخمسة المجزومة بلم).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "التراكيب (الوحدة 1-2)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/arabic_curriculum.md)",
+              "Rewrite with \"أن\": \"أنتم تقتصدون.\"",
+              "Rewrite with \"لم\": \"هما يسافران.\"",
+              "Parse \"يكتبوا\" in: \"كي يكتبوا.\""
+            ],
+            "retestQuestion": "Rewrite with \"لن\": \"المعلمون يتكاسلون.\" (لن يتكاسلوا)."
+          },
+          {
+            "id": "D4-Q9",
+            "type": "exam-style",
+            "text": "أعرب كلمة \"تضيعوا\" في الجملة: \"يجب أن لا تضيعوا الماءَ.\"",
+            "arabicText": "أعرب كلمة \"تضيعوا\" في الجملة: \"يجب أن لا تضيعوا الماءَ.\"",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "تضيعوا: فعل مضارع منصوب بأن وعلامة نصبه حذف النون لأنه من الأفعال الخمسة، والواو ضمير متصل مبني في محل رفع فاعل.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "التراكيب (الوحدة 1-2)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/arabic_curriculum.md)",
+              "Rewrite with \"أن\": \"أنتم تقتصدون.\"",
+              "Rewrite with \"لم\": \"هما يسافران.\"",
+              "Parse \"يكتبوا\" in: \"كي يكتبوا.\""
+            ],
+            "retestQuestion": "Rewrite with \"لن\": \"المعلمون يتكاسلون.\" (لن يتكاسلوا)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "date": "22 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Éducation Islamique"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Tracé de la bissectrice et mesure d'angles au rapporteur.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D5-Q1",
+            "type": "easy",
+            "text": "What does a bisector (منصف زاوية) do to an angle?",
+            "arabicText": "What does a bisector (منصف زاوية) do to an angle?",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "A bisector cuts an angle exactly in half into two equal angles. (يقسم الزاوية إلى زاويتين متطابقتين).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 14: Les angles : la bissectrice",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Draw a $60^\\circ$ angle and bisect.",
+              "Measure the half angles of a bisected $100^\\circ$ angle.",
+              "Construct a right angle ($90^\\circ$) and bisect."
+            ],
+            "retestQuestion": "Draw a $120^\\circ$ angle and bisect. Check if half angles are $60^\\circ$ each."
+          },
+          {
+            "id": "D5-Q2",
+            "type": "medium",
+            "text": "List the drawing tools needed to construct an angle bisector.",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "A ruler (مسطرة), a protractor (منقلة), a compass (بركار), and a sharp pencil.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 14: Les angles : la bissectrice",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Draw a $60^\\circ$ angle and bisect.",
+              "Measure the half angles of a bisected $100^\\circ$ angle.",
+              "Construct a right angle ($90^\\circ$) and bisect."
+            ],
+            "retestQuestion": "Draw a $120^\\circ$ angle and bisect. Check if half angles are $60^\\circ$ each."
+          },
+          {
+            "id": "D5-Q3",
+            "type": "exam-style",
+            "text": "Construct an angle of $80^\\circ$ and draw its bisector using your tools. Label the vertex $O$ and the bisector line $OZ$.",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "- Step 1: Draw the base line and use the protractor to mark $80^\\circ$. Draw the second line.",
+            "explanation": "- Step 2: Place the compass needle on the vertex $O$. Mark an arc intersecting both lines.\n- Step 3: From these two intersections, draw two arcs in the center that intersect.\n- Step 4: Draw a line from vertex $O$ through the intersection. The two new angles must measure $40^\\circ$ each.",
+            "mistakeRouting": "Leçon 14: Les angles : la bissectrice",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Draw a $60^\\circ$ angle and bisect.",
+              "Measure the half angles of a bisected $100^\\circ$ angle.",
+              "Construct a right angle ($90^\\circ$) and bisect."
+            ],
+            "retestQuestion": "Draw a $120^\\circ$ angle and bisect. Check if half angles are $60^\\circ$ each."
+          }
+        ]
+      },
+      {
+        "subject": "Français",
+        "title": "Bloc Français",
+        "objective": "Production écrite sur l'environnement et l'économie de l'eau.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D5-Q4",
+            "type": "easy",
+            "text": "Fill in the blanks with the correct connectors: *Ensuite* | *Enfin* | *D'abord*\n\"..., il faut fermer le robinet. ..., il faut réparer les fuites. ..., il faut utiliser des seaux d'eau.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "*D'abord*, il faut fermer... *Ensuite*, il faut réparer... *Enfin*, il faut utiliser...",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Production écrite (p. 160)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Write 3 vocabulary words linked to water saving.",
+              "Combine: \"Je ferme le robinet\" + \"Je me lave les dents\".",
+              "Write a slogan for environmental protection."
+            ],
+            "retestQuestion": "Write a 4-line paragraph about protecting trees."
+          },
+          {
+            "id": "D5-Q5",
+            "type": "medium",
+            "text": "Write one sentence explaining why water is \"précieuse\".",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "L'eau est précieuse parce qu'elle est indispensable à la vie de tous les êtres vivants. (Or similar).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Production écrite (p. 160)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Write 3 vocabulary words linked to water saving.",
+              "Combine: \"Je ferme le robinet\" + \"Je me lave les dents\".",
+              "Write a slogan for environmental protection."
+            ],
+            "retestQuestion": "Write a 4-line paragraph about protecting trees."
+          },
+          {
+            "id": "D5-Q6",
+            "type": "exam-style",
+            "text": "Write a short paragraph (at least 7 lines) in French explaining how you protect water at home.",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "- *Model Answer:* L'eau est une ressource très précieuse pour la vie. D'abord, à la maison, il faut fermer le robinet pendant le brossage des dents. Ensuite, il est nécessaire de prendre des douches courtes au lieu de bains. De plus, mon père doit laver la voiture avec un seau d'eau. Enfin, il faut réparer les fuites rapidement. Protégeons l'eau pour sauver la vie sur notre planète ! (7 lines checked).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Production écrite (p. 160)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Write 3 vocabulary words linked to water saving.",
+              "Combine: \"Je ferme le robinet\" + \"Je me lave les dents\".",
+              "Write a slogan for environmental protection."
+            ],
+            "retestQuestion": "Write a 4-line paragraph about protecting trees."
+          }
+        ]
+      },
+      {
+        "subject": "Éducation Islamique",
+        "title": "Bloc Éducation Islamique",
+        "objective": "الاقتداء والاستقامة: دراسة قصة آل ياسر وعبر الصبر.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D5-Q7",
+            "type": "easy",
+            "text": "من هي أول شهيدة في الإسلام؟",
+            "arabicText": "من هي أول شهيدة في الإسلام؟",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "سمية أم عمار بن ياسر.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الاقتداء: قصة آل ياسر",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Read the story of Yasir's family.",
+              "Write the Hadith \"صبراً آل ياسر...\" 3 times.",
+              "List the members of the family of Yasir."
+            ],
+            "retestQuestion": "What was the destination promised by the Prophet to the family of Yasir?"
+          },
+          {
+            "id": "D5-Q8",
+            "type": "medium",
+            "text": "اكتب الحديث النبوي الشريف الذي يعزي ويصبر آل ياسر.",
+            "arabicText": "اكتب الحديث النبوي الشريف الذي يعزي ويصبر آل ياسر.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "قال رسول الله صلى الله عليه وسلم: \"صبراً آل ياسر فإن موعدكم الجنة.\"",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الاقتداء: قصة آل ياسر",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Read the story of Yasir's family.",
+              "Write the Hadith \"صبراً آل ياسر...\" 3 times.",
+              "List the members of the family of Yasir."
+            ],
+            "retestQuestion": "What was the destination promised by the Prophet to the family of Yasir?"
+          },
+          {
+            "id": "D5-Q9",
+            "type": "exam-style",
+            "text": "ما هي القيمة العظيمة التي نستخلصها من قصة آل ياسر في تحمل العذاب؟",
+            "arabicText": "ما هي القيمة العظيمة التي نستخلصها من قصة آل ياسر في تحمل العذاب؟",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "الصبر والثبات على الدين والتوحيد والتوكل على الله في مواجهة الشدائد.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الاقتداء: قصة آل ياسر",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Read the story of Yasir's family.",
+              "Write the Hadith \"صبراً آل ياسر...\" 3 times.",
+              "List the members of the family of Yasir."
+            ],
+            "retestQuestion": "What was the destination promised by the Prophet to the family of Yasir?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "date": "23 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Langue Arabe"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Conversions de mesures de longueur, masse, aire et volume.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D6-Q1",
+            "type": "easy",
+            "text": "Convert: $1,2\\text{ km} = \\dots \\text{ m}$",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "$1200\\text{ m}$",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 3: Conversion & Leçon 9: Volume",
+            "exercises": [
+              "& [Leçon 9: Volume](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/mathematics_curriculum.md#leçon-9)",
+              "Convert $50\\text{m} = \\dots \\text{dm}$.",
+              "Convert $12\\text{ha} = \\dots \\text{a}$.",
+              "Convert $500\\text{mL} = \\dots \\text{dm}^3$."
+            ],
+            "retestQuestion": "Convert $4,5\\text{t} + 120\\text{kg} = \\dots \\text{q}$."
+          },
+          {
+            "id": "D6-Q2",
+            "type": "medium",
+            "text": "Solve and convert (using table): $3,5\\text{ t} + 250\\text{ kg} = \\dots \\text{ q}$",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "$37,5\\text{ q}$.",
+            "explanation": "- $3,5\\text{ t} = 35\\text{ q}$\n- $250\\text{ kg} = 2,5\\text{ q}$\n- Total: $35 + 2,5 = [ 37,5\\text{ q} ]$",
+            "mistakeRouting": "Leçon 3: Conversion & Leçon 9: Volume",
+            "exercises": [
+              "& [Leçon 9: Volume](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/mathematics_curriculum.md#leçon-9)",
+              "Convert $50\\text{m} = \\dots \\text{dm}$.",
+              "Convert $12\\text{ha} = \\dots \\text{a}$.",
+              "Convert $500\\text{mL} = \\dots \\text{dm}^3$."
+            ],
+            "retestQuestion": "Convert $4,5\\text{t} + 120\\text{kg} = \\dots \\text{q}$."
+          },
+          {
+            "id": "D6-Q3",
+            "type": "medium",
+            "text": "Convert: $2,5\\text{ ha} = \\dots \\text{ m}^2$",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "$25000\\text{ m}^2$. (Hint: $1\\text{ ha} = 1\\text{ hm}^2 = 10000\\text{ m}^2$).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 3: Conversion & Leçon 9: Volume",
+            "exercises": [
+              "& [Leçon 9: Volume](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/mathematics_curriculum.md#leçon-9)",
+              "Convert $50\\text{m} = \\dots \\text{dm}$.",
+              "Convert $12\\text{ha} = \\dots \\text{a}$.",
+              "Convert $500\\text{mL} = \\dots \\text{dm}^3$."
+            ],
+            "retestQuestion": "Convert $4,5\\text{t} + 120\\text{kg} = \\dots \\text{q}$."
+          },
+          {
+            "id": "D6-Q4",
+            "type": "exam-style",
+            "text": "Convert: $15\\text{ dm}^3 = \\dots \\text{ L}$",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "$15\\text{ L}$. (Remember that $1\\text{ dm}^3$ is exactly equal to $1\\text{ Liter}$).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 3: Conversion & Leçon 9: Volume",
+            "exercises": [
+              "& [Leçon 9: Volume](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/mathematics_curriculum.md#leçon-9)",
+              "Convert $50\\text{m} = \\dots \\text{dm}$.",
+              "Convert $12\\text{ha} = \\dots \\text{a}$.",
+              "Convert $500\\text{mL} = \\dots \\text{dm}^3$."
+            ],
+            "retestQuestion": "Convert $4,5\\text{t} + 120\\text{kg} = \\dots \\text{q}$."
+          }
+        ]
+      },
+      {
+        "subject": "Français",
+        "title": "Bloc Français",
+        "objective": "Règles d'accord (nom, adjectif, verbe) et homophones grammaticaux.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D6-Q5",
+            "type": "easy",
+            "text": "Agree the adjective inside the parentheses: \"une ressource (précieux)\".",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "précieuse (feminine singular)",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Orthographe (p. 38 / 115 / 127)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Agree: \"des arbres (vert)\".",
+              "Plural: \"un cheval\" $\\rightarrow$ \"des chevaux\".",
+              "Choose: \"Je (peu/peux) aider.\""
+            ],
+            "retestQuestion": "Agree: \"des forêts (dense)\" and write plural of \"un animal\"."
+          },
+          {
+            "id": "D6-Q6",
+            "type": "medium",
+            "text": "Write the plural form: \"un journal local\" $\\rightarrow$ \"des ...\".",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "des journaux locaux",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Orthographe (p. 38 / 115 / 127)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Agree: \"des arbres (vert)\".",
+              "Plural: \"un cheval\" $\\rightarrow$ \"des chevaux\".",
+              "Choose: \"Je (peu/peux) aider.\""
+            ],
+            "retestQuestion": "Agree: \"des forêts (dense)\" and write plural of \"un animal\"."
+          },
+          {
+            "id": "D6-Q7",
+            "type": "exam-style",
+            "text": "Choose the correct word in the sentence: \"Younes (peu / peut / peux) fermer le robinet.\"",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "peut (third-person singular of verb *pouvoir*).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "French Orthographe (p. 38 / 115 / 127)",
+            "exercises": [
+              "](file:///c:/Users/lenovo/OneDrive/Desktop/iqraa-history-agent/data/curriculum/french_curriculum.md)",
+              "Agree: \"des arbres (vert)\".",
+              "Plural: \"un cheval\" $\\rightarrow$ \"des chevaux\".",
+              "Choose: \"Je (peu/peux) aider.\""
+            ],
+            "retestQuestion": "Agree: \"des forêts (dense)\" and write plural of \"un animal\"."
+          }
+        ]
+      },
+      {
+        "subject": "Langue Arabe",
+        "title": "Bloc Langue Arabe",
+        "objective": "قواعد الإملاء: كتابة همزة الوصل والقطع، والهمزة المتوسطة والمتطرفة.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D6-Q8",
+            "type": "easy",
+            "text": "اكتب \"بن\" أو \"ابن\" في الفراغ: \"عيسى ... مريم عليهما السلام.\"",
+            "arabicText": "اكتب \"بن\" أو \"ابن\" في الفراغ: \"عيسى ... مريم عليهما السلام.\"",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "بن (عيسى بن مريم - بين علمين).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الإملاء والشكل",
+            "exercises": [
+              "Write \"بن\" or \"ابن\": \"... خلدون مؤرخ.\"",
+              "Correct: \"يا ابن عم.\"",
+              "Vocalize: \"كتب الولد الدرس.\""
+            ],
+            "retestQuestion": "Correct: \"يا ابن الوليد\" and vocalize: \"سافر السائح.\""
+          },
+          {
+            "id": "D6-Q9",
+            "type": "medium",
+            "text": "صحح كتابة \"ابن\" في الجملة التالية: \"يا ابن أخي أسرع.\"",
+            "arabicText": "صحح كتابة \"ابن\" في الجملة التالية: \"يا ابن أخي أسرع.\"",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "يا بن أخي أسرع (تحذف الألف بعد ياء النداء).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الإملاء والشكل",
+            "exercises": [
+              "Write \"بن\" or \"ابن\": \"... خلدون مؤرخ.\"",
+              "Correct: \"يا ابن عم.\"",
+              "Vocalize: \"كتب الولد الدرس.\""
+            ],
+            "retestQuestion": "Correct: \"يا ابن الوليد\" and vocalize: \"سافر السائح.\""
+          },
+          {
+            "id": "D6-Q10",
+            "type": "exam-style",
+            "text": "اضبط الجملة التالية بالشكل التام: \"سافر عمار بن ياسر إلى مكة.\"",
+            "arabicText": "اضبط الجملة التالية بالشكل التام: \"سافر عمار بن ياسر إلى مكة.\"",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "سَافَرَ عَمَّارُ بْنُ يَاسِرٍ إِلَى مَكَّةَ.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "الإملاء والشكل",
+            "exercises": [
+              "Write \"بن\" or \"ابن\": \"... خلدون مؤرخ.\"",
+              "Correct: \"يا ابن عم.\"",
+              "Vocalize: \"كتب الولد الدرس.\""
+            ],
+            "retestQuestion": "Correct: \"يا ابن الوليد\" and vocalize: \"سافر السائح.\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "date": "24 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Langue Arabe"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Calcul de périmètres, aires planes et volumes de solides.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D7-Q1",
+            "type": "easy",
+            "text": "Write the formulas for:\n1. Perimeter of a rectangle (محيط المستطيل).\n2. Area of a rectangle (مساحة المستطيل).",
+            "arabicText": "Write the formulas for:\n1. Perimeter of a rectangle (محيط المستطيل).\n2. Area of a rectangle (مساحة المستطيل).",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "1. Perimeter = $2 \\times (L + w)$",
+            "explanation": "2. Area = $L \\times w$",
+            "mistakeRouting": "Leçon 10: Le cube et le parallélépipède",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Find area of square with side 6cm.",
+              "Find volume of cube with side 3cm.",
+              "Find area of rectangle with $L=10\\text{cm}, w=4\\text{cm}$."
+            ],
+            "retestQuestion": "A rectangular reservoir has $L = 6\\text{m}$, $w = 2\\text{m}$, $h = 1.5\\text{m}$. Find its volume."
+          },
+          {
+            "id": "D7-Q2",
+            "type": "medium",
+            "text": "A rectangular school yard is $15\\text{ m}$ long and $8\\text{ m}$ wide. Calculate its Area.",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "$120\\text{ m}^2$. (Calculation: $15 \\times 8 = 120$).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 10: Le cube et le parallélépipède",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Find area of square with side 6cm.",
+              "Find volume of cube with side 3cm.",
+              "Find area of rectangle with $L=10\\text{cm}, w=4\\text{cm}$."
+            ],
+            "retestQuestion": "A rectangular reservoir has $L = 6\\text{m}$, $w = 2\\text{m}$, $h = 1.5\\text{m}$. Find its volume."
+          },
+          {
+            "id": "D7-Q3",
+            "type": "exam-style",
+            "text": "A water reservoir is shaped like a rectangular prism (متوازي المستطيلات) with: Length $L = 4\\text{ m}$, width $w = 2,5\\text{ m}$, and height $h = 2\\text{ m}$.\n1. Calculate its Volume in $\\text{m}^3$.\n2. Convert this volume to Liters.",
+            "arabicText": "A water reservoir is shaped like a rectangular prism (متوازي المستطيلات) with: Length $L = 4\\text{ m}$, width $w = 2,5\\text{ m}$, and height $h = 2\\text{ m}$.\n1. Calculate its Volume in $\\text{m}^3$.\n2. Convert this volume to Liters.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "1. Volume = $L \\times w \\times h = 4 \\times 2,5 \\times 2 = 20\\text{ m}^3$",
+            "explanation": "2. Capacity = $20000\\text{ L}$ (Since $1\\text{ m}^3 = 1000\\text{ dm}^3 = 1000\\text{ L}$).",
+            "mistakeRouting": "Leçon 10: Le cube et le parallélépipède",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Find area of square with side 6cm.",
+              "Find volume of cube with side 3cm.",
+              "Find area of rectangle with $L=10\\text{cm}, w=4\\text{cm}$."
+            ],
+            "retestQuestion": "A rectangular reservoir has $L = 6\\text{m}$, $w = 2\\text{m}$, $h = 1.5\\text{m}$. Find its volume."
+          }
+        ]
+      },
+      {
+        "subject": "Langue Arabe",
+        "title": "Bloc Langue Arabe",
+        "objective": "الكتابة والإنشاء: صياغة موضوع مقالي متكامل.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D7-Q4",
+            "type": "easy",
+            "text": "ما هي الأجزاء الثلاثة الأساسية لبناء المقال؟",
+            "arabicText": "ما هي الأجزاء الثلاثة الأساسية لبناء المقال؟",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "المقدمة (Introduction)، العرض (Body)، الخاتمة (Conclusion).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "التعبير الكتابي (كتابة مقال)",
+            "exercises": [
+              "Sort connectors: *وأخيراً، في البداية، بالإضافة إلى*.",
+              "Write 3 keywords about tourism in Arabic.",
+              "Draft a slogan for tourism."
+            ],
+            "retestQuestion": "Write a 2-line conclusion for a tourism article."
+          },
+          {
+            "id": "D7-Q5",
+            "type": "medium",
+            "text": "رتب الجمل التالية لتكوين فقرة متناسقة:\n- وأخيراً، يجب الحفاظ على الماء من التلوث.\n- أولاً، الماء هو شريان الحياة لكل الكائنات.\n- ثانياً، بدونه لا يمكن للنباتات أن تنمو.",
+            "arabicText": "رتب الجمل التالية لتكوين فقرة متناسقة:\n- وأخيراً، يجب الحفاظ على الماء من التلوث.\n- أولاً، الماء هو شريان الحياة لكل الكائنات.\n- ثانياً، بدونه لا يمكن للنباتات أن تنمو.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "الترتيب الصحيح:",
+            "explanation": "1. أولاً، الماء هو شريان الحياة...\n2. ثانياً، بدونه لا يمكن للنباتات...\n3. وأخيراً، يجب الحفاظ على الماء...",
+            "mistakeRouting": "التعبير الكتابي (كتابة مقال)",
+            "exercises": [
+              "Sort connectors: *وأخيراً، في البداية، بالإضافة إلى*.",
+              "Write 3 keywords about tourism in Arabic.",
+              "Draft a slogan for tourism."
+            ],
+            "retestQuestion": "Write a 2-line conclusion for a tourism article."
+          },
+          {
+            "id": "D7-Q6",
+            "type": "exam-style",
+            "text": "اكتب مقدمة من ثلاثة أسطر لمقال يتحدث عن أهمية السياحة الجبلية في إفران، واضبطها بالشكل التام.",
+            "arabicText": "اكتب مقدمة من ثلاثة أسطر لمقال يتحدث عن أهمية السياحة الجبلية في إفران، واضبطها بالشكل التام.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "- *Model Answer:* تُعْتَبَرُ مَدِينَةُ إِفْرَانَ مِنْ أَهَمِّ المَنَاطِقِ السِّياحِيَّةِ فِي المَغْرِبِ. وتَتَمَيَّزُ بِطَبِيعَتِهَا الخَلَّابَةِ وجِبَالِهَا الرَّائِعَةِ الَّتِي تَجْذِبُ السُّيَّاحَ مِنْ كُلِّ مَكَانٍ. (Vocalized & Structured).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "التعبير الكتابي (كتابة مقال)",
+            "exercises": [
+              "Sort connectors: *وأخيراً، في البداية، بالإضافة إلى*.",
+              "Write 3 keywords about tourism in Arabic.",
+              "Draft a slogan for tourism."
+            ],
+            "retestQuestion": "Write a 2-line conclusion for a tourism article."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "date": "25 Juin 2026",
+    "subjects": [
+      "Mathématiques",
+      "Français",
+      "Langue Arabe",
+      "Éducation Islamique"
+    ],
+    "blocks": [
+      {
+        "subject": "Mathématiques",
+        "title": "Bloc Mathématiques",
+        "objective": "Résoudre des problèmes de proportionnalité et calcul de vitesse.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D8-Q1",
+            "type": "easy",
+            "text": "A car travels $120\\text{ km}$ in $2\\text{ hours}$. Calculate its average speed ($v = d/t$).",
+            "arabicText": null,
+            "answerSpace": "Écris ta réponse ici :",
+            "officialAnswer": "$60\\text{ km/h}$. (Calculation: $120 \\div 2 = 60$).",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "Leçon 31: Proportionnalité",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Find speed if $d = 160\\text{km}$ and $t = 2\\text{h}$.",
+              "Find distance if $v = 100\\text{km/h}$ and $t = 1.5\\text{h}$.",
+              "Find time if $d = 80\\text{km}$ and $v = 40\\text{km/h}$."
+            ],
+            "retestQuestion": "A car travels $100\\text{km}$ in $1\\text{ hour and } 15\\text{ minutes}$ (Hint: $1.25\\text{h}$). Find its speed. (Result: $80\\text{km/h}$)."
+          },
+          {
+            "id": "D8-Q2",
+            "type": "medium",
+            "text": "Calculate the distance traveled by a train moving at $90\\text{ km/h}$ for $3\\text{ hours and } 30\\text{ minutes}$. (Hint: convert minutes to decimal hours $\\rightarrow 3.5\\text{ h}$).",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "$315\\text{ km}$.",
+            "explanation": "- $3\\text{h } 30\\text{min} = 3.5\\text{h}$\n- Distance = $v \\times t = 90 \\times 3.5 = [ 315\\text{ km} ]$",
+            "mistakeRouting": "Leçon 31: Proportionnalité",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Find speed if $d = 160\\text{km}$ and $t = 2\\text{h}$.",
+              "Find distance if $v = 100\\text{km/h}$ and $t = 1.5\\text{h}$.",
+              "Find time if $d = 80\\text{km}$ and $v = 40\\text{km/h}$."
+            ],
+            "retestQuestion": "A car travels $100\\text{km}$ in $1\\text{ hour and } 15\\text{ minutes}$ (Hint: $1.25\\text{h}$). Find its speed. (Result: $80\\text{km/h}$)."
+          },
+          {
+            "id": "D8-Q3",
+            "type": "exam-style",
+            "text": "A motorcycle travels $200\\text{ km}$ at an average speed of $80\\text{ km/h}$. How long did the trip take? (Provide your answer in hours and minutes).",
+            "arabicText": null,
+            "answerSpace": "Pose ton opération et calcule :",
+            "officialAnswer": "$2\\text{ hours and } 30\\text{ minutes}$.",
+            "explanation": "- $t = d / v = 200 \\div 80 = 2.5\\text{ h}$\n- $2.5\\text{ h} = 2\\text{h } 30\\text{min}$ (since $0.5\\text{h} = 30\\text{min}$).",
+            "mistakeRouting": "Leçon 31: Proportionnalité",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Find speed if $d = 160\\text{km}$ and $t = 2\\text{h}$.",
+              "Find distance if $v = 100\\text{km/h}$ and $t = 1.5\\text{h}$.",
+              "Find time if $d = 80\\text{km}$ and $v = 40\\text{km/h}$."
+            ],
+            "retestQuestion": "A car travels $100\\text{km}$ in $1\\text{ hour and } 15\\text{ minutes}$ (Hint: $1.25\\text{h}$). Find its speed. (Result: $80\\text{km/h}$)."
+          }
+        ]
+      },
+      {
+        "subject": "Éducation Islamique",
+        "title": "Bloc Éducation Islamique",
+        "objective": "قصة مريم العذراء وأحكام الصيام الإضافية.",
+        "estimatedDuration": "10 minutes",
+        "questions": [
+          {
+            "id": "D8-Q7",
+            "type": "easy",
+            "text": "من هي مريم عليها السلام؟",
+            "arabicText": "من هي مريم عليها السلام؟",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "هي مريم ابنة عمران، أم عيسى عليه السلام، وهي رمز العفة والطهارة والصبر.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "القسط والحكمة: قصة مريم",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Summarize the story of Mary in 2 sentences.",
+              "List the definition of Fasting and how it links to patience.",
+              "Read Quranic verses praising Mary."
+            ],
+            "retestQuestion": ""
+          },
+          {
+            "id": "D8-Q8",
+            "type": "medium",
+            "text": "اذكر قيمتين نتعلمهما من قصة مريم عليها السلام.",
+            "arabicText": "اذكر قيمتين نتعلمهما من قصة مريم عليها السلام.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "العفة والطهارة، الصبر والتحمل، التوكل واليقين بالله.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "القسط والحكمة: قصة مريم",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Summarize the story of Mary in 2 sentences.",
+              "List the definition of Fasting and how it links to patience.",
+              "Read Quranic verses praising Mary."
+            ],
+            "retestQuestion": ""
+          },
+          {
+            "id": "D8-Q9",
+            "type": "exam-style",
+            "text": "يدعي زميلك أن الصيام هو مجرد امتناع عن الأكل والشرب فقط. مستشهداً بقيم الصبر والتقوى، اكتب له نصيحة من ثلاثة أسطر توضح فيها المعنى الحقيقي للصيام.",
+            "arabicText": "يدعي زميلك أن الصيام هو مجرد امتناع عن الأكل والشرب فقط. مستشهداً بقيم الصبر والتقوى، اكتب له نصيحة من ثلاثة أسطر توضح فيها المعنى الحقيقي للصيام.",
+            "answerSpace": "اكتب إجابتك هنا:",
+            "officialAnswer": "- *Model Answer:* يا زميلي، الصيام ليس مجرد امتناع عن الأكل والشرب فحسب، بل هو تدريب على الصبر وتقوى الله. فالصيام الحقيقي هو صوم الجوارح عن اللغو والذنوب، والتحلي بالأخلاق الحسنة وحب الخير كما تعلمنا من سير الصالحين مثل مريم عليها السلام.",
+            "explanation": "Bonne réponse !",
+            "mistakeRouting": "القسط والحكمة: قصة مريم",
+            "exercises": [
+              "- **Practice Exercises:**",
+              "Summarize the story of Mary in 2 sentences.",
+              "List the definition of Fasting and how it links to patience.",
+              "Read Quranic verses praising Mary."
+            ],
+            "retestQuestion": ""
+          }
+        ]
+      }
+    ]
+  }
+]

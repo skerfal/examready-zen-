@@ -1,0 +1,1 @@
+This repository is the public project link for the Kaggle “AI Agents: Intensive Vibe Coding Capstone Project” submission. The project is a local-first Math-only capstone MVP. It uses demo data only and requires human review before extracted questions or answers are used with students.
