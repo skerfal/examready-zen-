@@ -1004,6 +1004,50 @@ def update_exam_question_answer_endpoint(exam_id: str, question_id: str, request
     return target_q
 
 
+def find_source_pdf(source_file: str, package_metadata: Optional[dict] = None) -> Optional[str]:
+    import os
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    
+    # 1. Try standard uploads
+    p = os.path.join(base_dir, "data", "uploads", "exams", source_file)
+    if os.path.exists(p):
+        return p
+        
+    # 2. Try standard historical path
+    p = os.path.join(base_dir, "data", "historical_exams", source_file)
+    if os.path.exists(p):
+        return p
+        
+    # 3. Try package metadata path
+    if package_metadata:
+        pkg_id = package_metadata.get("package_id")
+        internal_path = package_metadata.get("internal_pdf_path")
+        if pkg_id and internal_path:
+            p = os.path.join(base_dir, "data", "historical_exams", "imported", "extracted_packages", pkg_id, internal_path)
+            if os.path.exists(p):
+                return p
+            p = os.path.join(base_dir, "data", "historical_exams", "imported", "extracted_packages", pkg_id, os.path.basename(internal_path))
+            if os.path.exists(p):
+                return p
+                
+    # 4. Try current working directory
+    if os.path.exists(source_file):
+        return os.path.abspath(source_file)
+        
+    # 5. Search recursively in standard user directories (Desktop and workspaces)
+    search_roots = [
+        r"C:\Users\lenovo\OneDrive\Desktop\IqraaNow5.0",
+        r"C:\Users\lenovo\OneDrive\Desktop\exam-ready-zen",
+        r"C:\Users\lenovo\OneDrive\Desktop\examready-zen-capstone-submit"
+    ]
+    for root in search_roots:
+        if os.path.exists(root):
+            for dirpath, _, filenames in os.walk(root):
+                if source_file in filenames:
+                    return os.path.join(dirpath, source_file)
+                    
+    return None
+
 @app.post("/exam-bank/{exam_id}/generate-previews")
 def generate_exam_previews_endpoint(exam_id: str):
     import os
@@ -1019,15 +1063,9 @@ def generate_exam_previews_endpoint(exam_id: str):
     if not source_file:
         raise HTTPException(status_code=400, detail="No source file registered for this exam.")
         
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    pdf_path = os.path.join(base_dir, "data", "uploads", "exams", source_file)
-    
-    if not os.path.exists(pdf_path):
-        pdf_path = os.path.join(base_dir, "data", "historical_exams", source_file)
-        if not os.path.exists(pdf_path):
-            pdf_path = source_file
-            if not os.path.exists(pdf_path):
-                raise HTTPException(status_code=400, detail=f"Source PDF file '{source_file}' not found.")
+    pdf_path = find_source_pdf(source_file, rec.get("package_metadata"))
+    if not pdf_path:
+        raise HTTPException(status_code=400, detail=f"Source PDF file '{source_file}' not found.")
                 
     result = generate_pdf_previews(pdf_path, exam_id)
     if not result["success"]:
@@ -1094,15 +1132,10 @@ def run_exam_ocr_endpoint(exam_id: str, request: OcrRequest):
     if not source_file:
         raise HTTPException(status_code=400, detail="No source file registered for this exam.")
         
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    pdf_path = os.path.join(base_dir, "data", "uploads", "exams", source_file)
-    if not os.path.exists(pdf_path):
-        pdf_path = os.path.join(base_dir, "data", "historical_exams", source_file)
-        if not os.path.exists(pdf_path):
-            pdf_path = source_file
-            if not os.path.exists(pdf_path):
-                raise HTTPException(status_code=400, detail=f"Source PDF file '{source_file}' not found.")
-                
+    pdf_path = find_source_pdf(source_file, rec.get("package_metadata"))
+    if not pdf_path:
+        raise HTTPException(status_code=400, detail=f"Source PDF file '{source_file}' not found.")
+                 
     res = run_ocr_extraction(exam_id, pdf_path, request.pages)
     return res
 
