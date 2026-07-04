@@ -21,6 +21,18 @@ def check_ocr_availability() -> Tuple[bool, str, str]:
             "Veuillez exécuter 'pip install pytesseract Pillow' pour les installer."
         )
 
+    # Automatically set Windows path if found in standard installation directories
+    import shutil
+    if not shutil.which("tesseract"):
+        win_paths = [
+            r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+            r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
+        ]
+        for p in win_paths:
+            if os.path.exists(p):
+                pytesseract.pytesseract.tesseract_cmd = p
+                break
+
     # Check if tesseract binary is on path or configured
     try:
         version = pytesseract.get_tesseract_version()

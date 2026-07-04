@@ -514,9 +514,9 @@ export default function ExamBankDashboard() {
                   <div className="text-xs flex flex-wrap items-center gap-2">
                     <span className="font-bold">Accéder à la révision : </span>
                     <div className="flex flex-wrap gap-1.5">
-                      {(importResult || uploadResult)!.imported_exam_ids.map((exId) => (
+                      {(importResult || uploadResult)!.imported_exam_ids.map((exId, index) => (
                         <Link
-                           key={exId}
+                           key={`${exId}-${index}`}
                            href={`/examready-zen/exam-bank/${exId}`}
                            className="font-mono bg-blue text-white px-2 py-1 rounded hover:bg-blue/80 transition-colors text-[10px] font-bold"
                         >
