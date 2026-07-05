@@ -21,21 +21,16 @@ def check_ocr_availability() -> Tuple[bool, str, str]:
             "Veuillez exécuter 'pip install pytesseract Pillow' pour les installer."
         )
 
-    # Automatically set Windows path if found in standard installation directories
-    import shutil
-    if not shutil.which("tesseract"):
-        win_paths = [
-            r"C:\Program Files\Tesseract-OCR\tesseract.exe",
-            r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
-        ]
-        for p in win_paths:
-            if os.path.exists(p):
-                pytesseract.pytesseract.tesseract_cmd = p
-                break
+    # Detect the path C:\Program Files\Tesseract-OCR\tesseract.exe directly
+    tesseract_win_path = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    if os.path.exists(tesseract_win_path):
+        pytesseract.pytesseract.tesseract_cmd = tesseract_win_path
+    elif os.path.exists(r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"):
+        pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
 
     # Check if tesseract binary is on path or configured
     try:
-        version = pytesseract.get_tesseract_version()
+        version = str(pytesseract.get_tesseract_version())
         return (True, f"tesseract (version {version})", "")
     except Exception as e:
         return (
@@ -56,12 +51,49 @@ def run_ocr_extraction(exam_id: str, pdf_path: str, pages: Union[str, List[int]]
             "ocr_engine": "none",
             "warnings": ["ID d'examen invalide."],
             "draft_text_by_page": {},
-            "draft_questions_detected": 0
+            "draft_questions_detected": 0,
+            "detected_tesseract_path": "none",
+            "tesseract_version": "none",
+            "available_languages": [],
+            "selected_language": "none"
         }
 
     # 2. Check ocr engine availability
     is_available, engine_name, warning_msg = check_ocr_availability()
     
+    # Initialize diagnostic variables
+    detected_tesseract_path = "none"
+    tesseract_version = "none"
+    available_languages = []
+    selected_language = "default"
+    
+    import pytesseract
+    from PIL import Image
+    
+    if is_available:
+        detected_tesseract_path = getattr(pytesseract.pytesseract, "tesseract_cmd", "tesseract")
+        try:
+            tesseract_version = str(pytesseract.get_tesseract_version())
+        except Exception:
+            tesseract_version = "unknown"
+            
+        try:
+            available_languages = pytesseract.get_languages()
+        except Exception:
+            available_languages = []
+            
+        # Fallback language order selection
+        if "fra" in available_languages and "eng" in available_languages:
+            selected_language = "fra+eng"
+        elif "fra" in available_languages and "ara" in available_languages:
+            selected_language = "fra+ara"
+        elif "fra" in available_languages:
+            selected_language = "fra"
+        elif "eng" in available_languages:
+            selected_language = "eng"
+        else:
+            selected_language = "default"
+            
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ocr_dir = os.path.join(base_dir, "data", "ocr", exam_id)
     os.makedirs(ocr_dir, exist_ok=True)
@@ -74,7 +106,11 @@ def run_ocr_extraction(exam_id: str, pdf_path: str, pages: Union[str, List[int]]
             "ocr_engine": engine_name,
             "warnings": [warning_msg],
             "draft_text_by_page": {},
-            "draft_questions_detected": 0
+            "draft_questions_detected": 0,
+            "detected_tesseract_path": detected_tesseract_path,
+            "tesseract_version": tesseract_version,
+            "available_languages": available_languages,
+            "selected_language": selected_language
         }
         # Save summary to disk even if unavailable so endpoints/importer can query it
         summary_path = os.path.join(ocr_dir, "ocr_summary.json")
@@ -97,7 +133,11 @@ def run_ocr_extraction(exam_id: str, pdf_path: str, pages: Union[str, List[int]]
             "ocr_engine": engine_name,
             "warnings": [f"Impossible de générer des aperçus pour '{pdf_path}'."],
             "draft_text_by_page": {},
-            "draft_questions_detected": 0
+            "draft_questions_detected": 0,
+            "detected_tesseract_path": detected_tesseract_path,
+            "tesseract_version": tesseract_version,
+            "available_languages": available_languages,
+            "selected_language": selected_language
         }
 
     # Find list of generated PNGs
@@ -119,9 +159,6 @@ def run_ocr_extraction(exam_id: str, pdf_path: str, pages: Union[str, List[int]]
     pages_processed = []
     warnings = []
 
-    import pytesseract
-    from PIL import Image
-
     for page_num in target_page_numbers:
         img_name = f"page_{str(page_num).zfill(3)}.png"
         img_path = os.path.join(preview_root, img_name)
@@ -131,13 +168,10 @@ def run_ocr_extraction(exam_id: str, pdf_path: str, pages: Union[str, List[int]]
 
         try:
             img = Image.open(img_path)
-            try:
-                text = pytesseract.image_to_string(img, lang="fra+ara")
-            except Exception:
-                try:
-                    text = pytesseract.image_to_string(img, lang="fra")
-                except Exception:
-                    text = pytesseract.image_to_string(img)
+            if selected_language != "default":
+                text = pytesseract.image_to_string(img, lang=selected_language)
+            else:
+                text = pytesseract.image_to_string(img)
             
             cleaned_text = text.strip()
             draft_text_by_page[str(page_num)] = cleaned_text
@@ -157,14 +191,24 @@ def run_ocr_extraction(exam_id: str, pdf_path: str, pages: Union[str, List[int]]
     pattern = r"(?:Question|Q|Exercice|Ex)\s*(\d+)[:\-\.\)]|(?:\n\s*|\A\s*)(\d+)[:\-\.\)]\s"
     draft_questions_detected = len(list(re.finditer(pattern, all_text, re.IGNORECASE)))
 
+    ocr_status = "completed"
+    if not pages_processed:
+        ocr_status = "failed"
+    elif warnings:
+        ocr_status = "completed_with_warnings"
+
     summary = {
         "exam_id": exam_id,
-        "ocr_status": "success" if pages_processed else "failed",
+        "ocr_status": ocr_status,
         "pages_processed": pages_processed,
         "ocr_engine": engine_name,
         "warnings": warnings,
         "draft_text_by_page": draft_text_by_page,
-        "draft_questions_detected": draft_questions_detected
+        "draft_questions_detected": draft_questions_detected,
+        "detected_tesseract_path": detected_tesseract_path,
+        "tesseract_version": tesseract_version,
+        "available_languages": available_languages,
+        "selected_language": selected_language
     }
 
     # Save summary.json
